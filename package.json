@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "babylonjs": "^6.10.0",
+    "babylonjs-gui": "^6.10.0",
+    "babylonjs-loaders": "^6.10.0",
+    "babylonjs-materials": "^6.10.0",
+    "babylonjs-post-process": "^6.10.0",
+    "babylonjs-procedural-textures": "^6.10.0",
+    "babylonjs-serializers": "^6.10.0",
+    "babylonjs-viewer": "^6.10.0"
+  }
+}
