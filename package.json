@@ -1,12 +1,12 @@
 {
   "dependencies": {
-    "babylonjs": "^6.10.0",
-    "babylonjs-gui": "^6.10.0",
-    "babylonjs-loaders": "^6.10.0",
-    "babylonjs-materials": "^6.10.0",
-    "babylonjs-post-process": "^6.10.0",
-    "babylonjs-procedural-textures": "^6.10.0",
-    "babylonjs-serializers": "^6.10.0",
-    "babylonjs-viewer": "^6.10.0"
+    "babylonjs": "^6.12.2",
+    "babylonjs-gui": "^6.12.2",
+    "babylonjs-loaders": "^6.12.2",
+    "babylonjs-materials": "^6.12.2",
+    "babylonjs-post-process": "^6.12.2",
+    "babylonjs-procedural-textures": "^6.12.2",
+    "babylonjs-serializers": "^6.12.2",
+    "babylonjs-viewer": "^6.12.2"
   }
 }

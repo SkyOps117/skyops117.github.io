@@ -1,4 +1,4 @@
 "use strict"
-//import * as BABYLON from "babylonjs/babylon.js";
-import World from "./js/world.js";
+//import * as BABYLON from 'babylonjs';
+import World from "./world.js";
 const world = new World();

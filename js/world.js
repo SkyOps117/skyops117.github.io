@@ -1,5 +1,5 @@
 "use strict"
-import * as BABYLON from "../node_modules/babylonjs/babylon.js";
+import * as BABYLON from 'babylonjs';
 // Game world
 export default class World {
   constructor() {
