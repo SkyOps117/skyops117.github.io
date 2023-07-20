@@ -35,7 +35,7 @@ export default function World() {
     }
   }
   document.addEventListener("pointerlockchange", changePointerLock, false);
-
+  let isFullScreen = false;
   // PointerDown event
   function onPointerDown(e, info, type) {
     // Check fullscreen. Faster than checking pointerlock on each single click.
