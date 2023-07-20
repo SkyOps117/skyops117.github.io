@@ -1,4 +1,3 @@
-"use strict"
 //import * as BABYLON from "../node_modules/babylonjs/babylon.js";
 // Game world
 export default function World() {
