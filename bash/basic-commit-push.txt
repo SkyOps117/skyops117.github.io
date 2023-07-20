@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Clone the repository
+#git clone https://github.com/SkyOps117/skyops117.github.io
+
+# Navigate into the cloned repository
+cd skyops117.github.io
+
+# Commit the changes
+git commit -m "Commit message"
+
+# Push the changes to the remote repository
+git push origin main

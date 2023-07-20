@@ -1,0 +1,28 @@
+
+# COMMANDS @
+- Packages:
+@babylonjs/core                     - Babylon's core.
+@babylonjs/materials                - a collection of Babylon-supported advanced materials.
+@babylonjs/loaders                  - All of Babylon's official loaders (OBJ, STL, glTF)
+@babylonjs/post-processes           - Babylon's post processes.
+@babylonjs/procedural-textures      - Officially supported procedural textures
+@babylonjs/serializers              - Scene / mesh serializers.
+@babylonjs/gui                      - Babylon.js GUI module.
+@babylonjs/inspector                - The stand-aloneBabylon.js Viewer.
+- Command:
+npm install --save @babylonjs/core @babylonjs/materials @babylonjs/loaders @babylonjs/post-processes @babylonjs/procedural-textures @babylonjs/serializers @babylonjs/gui @babylonjs/inspector
+npm uninstall --save @babylonjs/core @babylonjs/materials @babylonjs/loaders @babylonjs/post-processes @babylonjs/procedural-textures @babylonjs/serializers @babylonjs/gui @babylonjs/inspector
+
+# COMMANDS JS
+- Packages:
+babylonjs                       - Babylon's core.
+babylonjs-materials             - a collection of Babylon-supported advanced materials.
+babylonjs-loaders               - All of Babylon's official loaders (OBJ, STL, glTF)
+babylonjs-post-process          - Babylon's post processes.
+babylonjs-procedural-textures   - Officially supported procedural textures
+babylonjs-serializers           - Scene / mesh serializers.
+babylonjs-gui                   - Babylon.js GUI module.
+babylonjs-viewer                - The stand-aloneBabylon.js Viewer.
+- Command:
+npm install --save 
+npm install --save babylonjs babylonjs-materials babylonjs-loaders babylonjs-post-process babylonjs-procedural-textures babylonjs-serializers babylonjs-gui babylonjs-viewer

@@ -1,5 +1,5 @@
 "use strict"
-import * as BABYLON from 'babylonjs';
+// import * as BABYLON from "../node_modules/babylonjs/babylon.js";
 // Game world
 export default class World {
   constructor() {
@@ -14,7 +14,7 @@ export default class World {
 
     const light1 = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 1, 0), scene);
     const sphere = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 1 }, scene);
-
+    
     // Event listener when the pointerlock is updated (or removed by pressing ESC for example).
     function pointerlockchange() {
       //let controlEnabled = document.mozPointerLockElement || document.webkitPointerLockElement || document.msPointerLockElement || document.pointerLockElement || null;

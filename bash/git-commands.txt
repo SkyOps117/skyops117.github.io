@@ -1,0 +1,13 @@
+git clone <repository_url>
+
+git add <file_name>
+
+git commit -m "-~-"
+
+git push origin main
+
+# Git command wait for background process
+command &
+wait
+ example:
+ echo

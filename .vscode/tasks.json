@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Github Push",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "",
+        "./bash/push.sh"
+      ],
+      "problemMatcher": [],
+      // "options": {
+      //   "env": {
+      //     "PATH": "/usr/bin:/usr/local/bin:/path/to/git/bin"
+      // }
+      // },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
