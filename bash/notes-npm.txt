@@ -26,3 +26,6 @@ babylonjs-viewer                - The stand-aloneBabylon.js Viewer.
 - Command:
 npm install --save 
 npm install --save babylonjs babylonjs-materials babylonjs-loaders babylonjs-post-process babylonjs-procedural-textures babylonjs-serializers babylonjs-gui babylonjs-viewer
+npm uninstall --save babylonjs babylonjs-materials babylonjs-loaders babylonjs-post-process babylonjs-procedural-textures babylonjs-serializers babylonjs-gui babylonjs-viewer
+
+~ End
