@@ -1,4 +1,4 @@
 "use strict"
-import mouse3 from "./mouse3.js";
+import game from "./game.js";
 
-const renderer = mouse3();
+const renderer = game();

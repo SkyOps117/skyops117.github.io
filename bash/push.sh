@@ -16,7 +16,7 @@ git add .
 #TIMESTAMP=$(date +"%Y-%m-%d_%H:%M:%S")
 #COMMIT_MESSAGE="Auto-commit on $TIMESTAMP"
 #git commit -m "$COMMIT_MESSAGE"
-git commit -m "Auto-Commit from './bash/push.sh'"
+git commit -m "Auto-Commit"
 # Push the changes to the remote repository
 #git push origin main
 git push
