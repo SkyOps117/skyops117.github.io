@@ -8,15 +8,18 @@
 
 # Initialize .git folder
 #git init
+text_output=$(
+  echo "This is command 1"
+  # Add all modified files
+  git add .
 
-# Add all modified files
-git add .
-
-# Commit the changes with a timestamp
-#TIMESTAMP=$(date +"%Y-%m-%d_%H:%M:%S")
-#COMMIT_MESSAGE="Auto-commit on $TIMESTAMP"
-#git commit -m "$COMMIT_MESSAGE"
-git commit -m "Auto-Commit"
-# Push the changes to the remote repository
-#git push origin main
-git push
+  # Commit the changes with a timestamp
+  #TIMESTAMP=$(date +"%Y-%m-%d_%H:%M:%S")
+  #COMMIT_MESSAGE="Auto-commit on $TIMESTAMP"
+  #git commit -m "$COMMIT_MESSAGE"
+  git commit -m "Auto-Commit"
+  # Push the changes to the remote repository
+  #git push origin main
+  git push
+)
+return text_output
