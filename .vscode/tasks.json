@@ -4,19 +4,27 @@
     {
       "label": "Github Push",
       "type": "shell",
-      "command": "bash",
-      "args": [
-        "./bash/push.sh"
-      ],
+      "command": "./bash/push.sh",
+      "args": [],
       "problemMatcher": [],
+      "group": "build"
       // "options": {
       //   "env": {
       //     "PATH": "./bash"
       //   },
-      // },
+      // }
+    },
+    {
+      "label": "Run tests",
+      "type": "shell",
+      "command": "./bash/push.sh",
       "group": {
         "kind": "build",
         "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
       }
     }
   ]
