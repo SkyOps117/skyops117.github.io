@@ -12,7 +12,8 @@
     {
       "label": "Github Push",
       "type": "shell",
-      "command": "./bash/push.sh",
+      "command": "bash",
+      "args": ["./bash/push.sh"],
       "group": {
         "kind": "build",
         "isDefault": true
