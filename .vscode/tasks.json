@@ -1,19 +1,14 @@
 {
   "version": "2.0.0",
   "tasks": [
-    {
-      "label": "Github Push",
-      "type": "shell",
-      "command": "./bash/push.sh",
-      "args": [],
-      "problemMatcher": [],
-      "group": "build"
-      // "options": {
-      //   "env": {
-      //     "PATH": "./bash"
-      //   },
-      // }
-    },
+    // {
+    //   "label": "Github Push",
+    //   "type": "shell",
+    //   "command": "./bash/push.sh",
+    //   "args": [],
+    //   "problemMatcher": [],
+    //   "group": "build"
+    // },
     {
       "label": "Run tests",
       "type": "shell",
