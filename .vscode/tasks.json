@@ -6,14 +6,13 @@
       "type": "shell",
       "command": "bash",
       "args": [
-        "",
         "./bash/push.sh"
       ],
       "problemMatcher": [],
       // "options": {
       //   "env": {
-      //     "PATH": "/usr/bin:/usr/local/bin:/path/to/git/bin"
-      // }
+      //     "PATH": "./bash"
+      //   },
       // },
       "group": {
         "kind": "build",
