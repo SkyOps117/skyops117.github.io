@@ -20,8 +20,8 @@
       "presentation": {
         "echo": true,
         "reveal": "never",
-        "focus": false,
-        "panel": "shared",
+        "focus": true,
+        "panel": "dedicated",
         "showReuseMessage": true,
         "clear": true
       }
