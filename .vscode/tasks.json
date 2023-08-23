@@ -10,12 +10,20 @@
     //   "group": "build"
     // },
     {
-      "label": "Run tests",
+      "label": "Github Push",
       "type": "shell",
       "command": "./bash/push.sh",
       "group": {
         "kind": "build",
         "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "never",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": true
       }
     }
   ]
