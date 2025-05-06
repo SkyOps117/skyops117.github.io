@@ -202,6 +202,7 @@ export default function game() {
   testBoxMaterial.ambientColor = new BABYLON.Color3(1, 1, 0);
   testBox.material = testBoxMaterial;
   testBox.position = new BABYLON.Vector3(0, 2, 0,);
+  /* PHYSICS BODY
   const testBoxBody = new BABYLON.PhysicsBody(testBox, BABYLON.PhysicsMotionType.DYNAMIC, false, scene);
   const testBoxShape = new BABYLON.PhysicsShapeBox(
     new BABYLON.Vector3(0, 0, 0),        // center of the box
@@ -210,6 +211,7 @@ export default function game() {
     scene                                // scene of the shape
   );
   testBoxBody.shape = testBoxShape;
+  */
   // Mouse cursor
   const cursor = BABYLON.MeshBuilder.CreateBox("cur", { width: 0.1, height: 0.1, depth: 0.1, }, scene);
   const cursorMaterial = new BABYLON.StandardMaterial("", scene);
