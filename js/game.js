@@ -13,7 +13,8 @@ export default function game() {
   // Physics
   const gravityVector = new BABYLON.Vector3(0, -9.81, 0);
   //let physicsPlugin = new BABYLON.HavokPlugin();
-  scene.enablePhysics(gravityVector, new BABYLON.HavokPlugin());
+  //scene.enablePhysics(gravityVector, new BABYLON.HavokPlugin());
+  scene.enablePhysics();
   //scene.gravity = new BABYLON.Vector3(0, -9.81, 0);
   // Physics
   // let havok;
